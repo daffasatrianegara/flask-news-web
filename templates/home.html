@@ -8,5 +8,15 @@ block content %}
   <p class="fw-semibold fs-5 text-center font-gray">
     Jelajahi dan temukan berita yang sedang trending dari seluruh penjuru dunia.
   </p>
+  <div class="mt-5 d-flex flex-wrap justify-content-start container-fluid">
+    {% for article in articles %}
+    <div class="news-card">
+      <img src="{{ article.urlToImage }}" alt="Image" style="width: 100px" />
+      <h2>{{ article.title }}</h2>
+      <p>{{ article.description }}</p>
+      <a href="{{ article.url }}" target="_blank">Read more</a>
+    </div>
+    {% endfor %}
+  </div>
 </div>
 {% endblock %}
