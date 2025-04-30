@@ -1,8 +1,12 @@
-{% extends "layouts/index.html" %}
-{% block title %}Beranda{% endblock %}
-
-{% block content %}
-<div class="container-fluid pt-5">
-    {% include 'components/header.html' %}
+{% extends "layouts/index.html" %} {% block title %}Beranda{% endblock %} {%
+block content %}
+<div class="container-fluid pt-5">{% include 'components/header.html' %}</div>
+<div class="container-fluid bg-white py-5">
+  <h1 class="fw-bold fs-3 text-center font-black-blue">
+    Berita Trending Hari ini
+  </h1>
+  <p class="fw-semibold fs-5 text-center font-gray">
+    Jelajahi dan temukan berita yang sedang trending dari seluruh penjuru dunia.
+  </p>
 </div>
 {% endblock %}

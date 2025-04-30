@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #dfd0b3 !important;
+  background-color: #E2DFD0 !important;
 }
 
 a {
@@ -27,4 +27,22 @@ a {
 
 .news-container {
   height: 92.6vh;
+}
+
+.news-img {
+  width: 100%;
+  border-radius: 5rem 0 5rem 0;
+  -webkit-border-radius: 5rem 0 5rem 0;
+  -moz-border-radius: 5rem 0 5rem 0;
+  -ms-border-radius: 5rem 0 5rem 0;
+  -o-border-radius: 5rem 0 5rem 0;
+  border: 3px solid #222831;
+}
+
+.font-grey {
+  color: rgb(80, 80, 80) !important;
+}
+
+.font-black-blue {
+  color: #222831 !important;
 }
