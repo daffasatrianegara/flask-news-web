@@ -1,0 +1,30 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dfd0b3 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.navbar-comp {
+  background-color: #222831;
+}
+
+.text-nav {
+  color: #ffffff !important;
+  font-size: 1.2rem !important;
+}
+
+.text-nav:hover {
+  color: #c1c1c1 !important;
+}
+
+.news-container {
+  height: 92.6vh;
+}
